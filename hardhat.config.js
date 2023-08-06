@@ -7,8 +7,8 @@ module.exports = {
     version: "0.8.0",
   },
   networks: {
-    goerli: {
-      url: "https://goerli.infura.io/v3/336a201c36684a2f884db2578ac19cff",
+    sepolia: {
+      url: "https://eth-sepolia-public.unifra.io"
       accounts: [process.env.PRIVATE_KEY],
     },
     mumbai: {
